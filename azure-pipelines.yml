@@ -15,7 +15,7 @@ variables:
   webAppName: 'my-app-koumr'
 
   # Environment name
-  environmentName: 'my-app-koumr'
+  environmentName: 'my-app-koumr-Env'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
