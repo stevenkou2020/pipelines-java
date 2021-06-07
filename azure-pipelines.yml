@@ -33,9 +33,7 @@ stages:
     - task: CmdLine@2
       inputs:
         script: |
-          echo Write your commands here
-          
-          echo Hello world
+          echo Hello $(user)
           
     - task: Maven@3
       displayName: 'Maven Package'
